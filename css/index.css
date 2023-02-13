@@ -1,0 +1,62 @@
+body {
+    background-color: #2e2e2e;
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #6743a5;
+    border-radius: 20px;
+    border: 3px solid #2e2e2e;
+}
+
+#title {
+    color: #7345d6;
+    font-family: 'Black Ops One', cursive;
+    font-size: 6rem;
+    /* padding-top: 2rem; */
+}
+
+/* img {
+    padding-top: 2rem;
+} */
+
+#button {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.button-style {
+    font-family: 'Nunito', sans-serif;
+    background-color: #7345d6;
+    border-color: #7345d6;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 1rem;
+}
+
+.button-style:hover {
+    background-color: #6743a5;
+    border-color: #6743a5;
+}
+
+a {
+    text-decoration: none;
+    color: #bfab93;
+    font-weight: 700;
+}
+
+
+/* Paleta de cores:
+
+.color1 { #594747 };
+.color2 { #6743a5 };
+.color3 { #7345d6 };
+.color4 { #2e2e2e };
+.color5 { #bfab93 };
+
+*/
