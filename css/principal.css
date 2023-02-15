@@ -1,0 +1,123 @@
+body {
+    background-color: #2e2e2e;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    max-width: 90em;
+    color: #bfab93;
+    font-size: 1.2rem;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #6743a5;
+    border-radius: 20px;
+    border: 3px solid #2e2e2e;
+}
+
+.links {
+    justify-content: space-evenly;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+    background-color: #2e2e2e;
+}
+
+.img-menu {
+    width: 8rem;
+    margin-right: -7rem;
+}
+
+li {
+    list-style: none;
+    margin: 2rem;
+}
+
+li a,
+.link-listas {
+    text-decoration: none;
+    color: #fff;
+}
+
+#title,
+.subtitle {
+    color: #6743a5;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #bfab93;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-items {
+    text-align: justify;
+    margin-left: 20rem;
+    margin-right: 5rem;
+}
+
+.img-inicio,
+.img-listas,
+.grid {
+    width: 20rem;
+    margin-right: 20rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-template-columns {
+    grid-template-columns: 50rem 45rem;
+}
+
+.subtitle {
+    margin-top: 5rem;
+}
+
+.conteudo {
+    margin-right: 20rem;
+}
+
+.img-inscricoes,
+.img-contatos {
+    width: 10rem;
+}
+
+.img-membros {
+    border-radius: 0px 25px 25px 25px;
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+}
+
+#exibirMembros {
+    display: grid;
+    grid-template-columns: repeat(4, 15rem);
+    justify-content: center;
+}
+
+.img-listas {
+    margin-left: 20rem;
+    margin-right: -15rem;
+}
+
+.p-listas {
+    margin-right: 20rem;
+}
+
+.grid-contatos {
+    grid-template-columns: 63rem 0rem;
+}
+
+footer {
+    margin: 2rem;
+}
